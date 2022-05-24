@@ -7,11 +7,7 @@
 #include<iostream>
 
 int main(int argc,char* argv[]){
-        /*if(argc != 2){
-                std::cout << "usage: ./tcp_client <PORTNO>" << std::endl;
-                return -1;
-        }*/
-        const char* port = "8013";
+        const char* port = "8101";
         int portno = atoi(port);
         //create a socket
         int socketid = socket(AF_INET,SOCK_STREAM,0);
